@@ -3,6 +3,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { FaGithub } from "react-icons/fa6";
 
 export const Footer = () => {
+    
   return (
     <div className="text-center flex flex-col gap-3">
       <div className="flex flex-col gap-2">
