@@ -72,6 +72,27 @@ export const skills = {
 
     ],
     "backendTechnicalSkills" : [
+        {
+            name : "NodeJS",
+            icon : "FaHtml5",
+            display : 1
+        },
+        {
+            name : "ExpressJS",
+            icon : "FaHtml5",
+            display : 2
+        },
+        {
+            name : "NestJS",
+            icon : "FaHtml5",
+            display : 3
+        },
+        {
+            name : "Docker",
+            icon : "FaHtml5",
+            display : 4
+        },
+
 
     ],
     "databaseTechnicalSkills" : [

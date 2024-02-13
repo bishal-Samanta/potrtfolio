@@ -28,7 +28,7 @@ export const ProgrammingLanguages : React.FC<ProgrammingLanguagesProps> = ({ nam
     return (
         <div key={index} className="rounded-lg shadow-2xl bg-[#3c4143] px-4 py-4 text-center shadow-black">
           {IconComponent && <IconComponent className="text-[40px] mb-1" />}
-          <p className="text-sm">{name}</p>
+          <p className="text-[8px]">{name}</p>
         </div>
       );
 }

@@ -29,7 +29,7 @@ export const FrontendSkills : React.FC<FrontendSkillsProps> = ({ name , icon , i
     return (
         <div key={index} className="rounded-lg shadow-2xl bg-[#3c4143] px-4 py-4 text-center shadow-black">
           {IconComponent ? <IconComponent className="text-[35px] mb-1" /> : (<img src={icon} className=" filter grayscale(100%)" />)}
-          <p className="text-sm">{name}</p>
+          <p className="text-[10px]">{name}</p>
         </div>
       );
 }

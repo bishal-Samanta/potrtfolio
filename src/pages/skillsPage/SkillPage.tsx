@@ -57,6 +57,62 @@ export const SkillPage = () => {
           </div>
 
         </div>
+
+        <div>
+
+          <div className="pt-9">
+            <h3 className=" font-bold text-xl ml-1">Backend Skills</h3>
+          </div>
+
+          <div className="grid grid-cols-4 gap-4 pt-3">
+
+            {skills.backendTechnicalSkills.sort((a , b) => a.display - b.display).map((skill , index) => {
+              return (
+                <FrontendSkills name={skill.name} icon={skill.icon} index={index} />
+              )
+            })}
+
+          </div>
+
+        </div>
+
+        <div>
+
+          <div className="pt-9">
+            <h3 className=" font-bold text-xl ml-1">Database Skills</h3>
+          </div>
+
+          <div className="grid grid-cols-4 gap-4 pt-3">
+
+            {skills.backendTechnicalSkills.sort((a , b) => a.display - b.display).map((skill , index) => {
+              return (
+                <FrontendSkills name={skill.name} icon={skill.icon} index={index} />
+              )
+            })}
+
+          </div>
+
+        </div>
+
+        <div>
+
+          <div className="pt-9">
+            <h3 className=" font-bold text-xl ml-1">Other Tools</h3>
+          </div>
+
+          <div className="grid grid-cols-4 gap-4 pt-3">
+
+            {skills.backendTechnicalSkills.sort((a , b) => a.display - b.display).map((skill , index) => {
+              return (
+                <FrontendSkills name={skill.name} icon={skill.icon} index={index} />
+              )
+            })}
+
+          </div>
+
+        </div>
+        
+        
         
         
 
