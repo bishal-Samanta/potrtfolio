@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import { Footer } from './components/common/Footer'
 import { Navbar } from './components/common/Navbar'
 import { AllRoutes } from './pages/AllRoutes'
 
@@ -14,6 +15,9 @@ function App() {
         <Navbar />
         <div className='pt-4'>
           <AllRoutes />
+        </div>
+        <div className='pt-10 pb-7'>
+          <Footer />
         </div>
       </div>
     </>
