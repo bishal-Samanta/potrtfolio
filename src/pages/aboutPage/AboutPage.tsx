@@ -1,6 +1,15 @@
-
+import { useNavigate } from "react-router-dom"
 
 export const AboutPage = () => {
+  const navigate = useNavigate();
+
+  const handleResumeButtonClick = () =>{
+    window.open("https://drive.google.com/file/d/1y1a1dvGDj232aLHK37w7reMwS4ncbHUM/view?usp=sharing" , "_blank")
+  }
+
+  const handleMyWorkSectionClick = () =>{
+    navigate("/projects");
+  }
   return (
     <div className="flex flex-col px-10">
       <div className="flex flex-col gap-7">
@@ -10,8 +19,8 @@ export const AboutPage = () => {
         </div>
 
         <div className="flex justify-center gap-4">
-          <button className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black" >Resume</button>
-          <button className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black">My Work</button>
+          <button onClick={handleResumeButtonClick} className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black" >Resume</button>
+          <button onClick={handleMyWorkSectionClick} className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black">Projects</button>
         </div>
       </div>
 
@@ -29,7 +38,10 @@ export const AboutPage = () => {
           <h3 className=" font-bold text-xl ml-1">About Me</h3>
         </div>
         <div className="rounded-lg shadow-2xl bg-[#3c4143] px-4 py-4 text-center shadow-black">
-        I am a Passion-driven MERN developer with hands-on experience in developing and organizing projects, curious and detail-oriented with a keen interest to build interactive and user-friendly websites. Looking for an exciting opportunity to work as a full-stack developer that promotes long-term learning and growth alongside the organization.
+            A Passion-driven MERN stack developer and trainer with hands-on experience in
+            teaching complex technology and building scalable products. Adaptable to learning
+            new technology, and open to using generative AI. Would like to bring his passion to
+            any organization that appreciates it and presents ample intellectual challenges.
         </div>
       </div>
         
