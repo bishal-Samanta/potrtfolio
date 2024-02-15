@@ -1,4 +1,6 @@
+import { education } from "@/configs/education";
 import { useNavigate } from "react-router-dom"
+import { SingleEducation } from "./SingleEducation";
 
 export const AboutPage = () => {
   const navigate = useNavigate();
@@ -44,6 +46,20 @@ export const AboutPage = () => {
             any organization that appreciates it and presents ample intellectual challenges.
         </div>
       </div>
+
+
+      <div className=" pt-7">
+        <div className="pb-3">
+          <h3 className=" font-bold text-xl ml-1">About Me</h3>
+        </div>
+
+        {/* Education */}
+        {education.map((el) => {
+          return <SingleEducation data={el} />
+        })}
+      </div>  
+
+      
         
     </div>
   )
