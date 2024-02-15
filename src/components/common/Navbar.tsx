@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className=" flex justify-around py-2">
+    <div className=" flex justify-around py-2 items-center">
       <div>
-        <h3 className=" text-xl font-semibold">
+        <h3 className=" text-xl font-semibold lg:text-[23px]">
           <Link to="/">Bishal Samanta</Link>
         </h3>
       </div>
 
-      <div>
-        <ul className="flex gap-3 text-sm">
+      <div className="">
+        <ul className="flex gap-3 text-sm lg:gap-5">
           <li className=" cursor-pointer">
             <Link to="/">About</Link>
           </li>
@@ -23,7 +23,6 @@ export const Navbar = () => {
           <li className=" cursor-pointer">
             <Link to="/blogs">Blogs</Link>
           </li>
-
         </ul>
       </div>
     </div>
