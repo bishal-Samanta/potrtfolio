@@ -13,18 +13,28 @@ export const SingleEducation: React.FC<SingleEducationProps> = ({
       key={courseName}
     >
       <div className="flex flex-col justify-between">
-        <h3 className="font-bold">{courseName}</h3>
-        <h3 className="font-semibold">{institutionName}</h3>
-        <div className="flex flex-col text-sm">
+        <h3 className="font-semibold">{courseName}</h3>
+        <h3>{institutionName}</h3>
+        {/* <div className="flex flex-col text-sm">
           <p className="">{date}</p>
           <p>{location}</p>
-        </div>
+        </div> */}
       </div>
-      <ul className="pt-5 text-left list-disc text-sm pl-5">
+      <div className="pt-5 flex flex-wrap gap-2 justify-center text-sm">
         {skills.map((desc, index) => (
-          <li key={index}>{desc}</li>
+          <div
+            className="px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md"
+            key={index}
+          >
+            {desc}
+          </div>
         ))}
-      </ul>
+      </div>
+
+      <div className="flex flex-col text-[12px] mt-4">
+        <p className="">{date}</p>
+        <p>{location}</p>
+      </div>
     </div>
   );
 };
