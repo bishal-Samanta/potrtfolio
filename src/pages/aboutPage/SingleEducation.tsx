@@ -20,7 +20,7 @@ export const SingleEducation: React.FC<SingleEducationProps> = ({
           <p>{location}</p>
         </div> */}
       </div>
-      <div className="pt-5 flex flex-wrap gap-2 justify-center text-sm">
+      <div className="pt-5 flex flex-wrap gap-2 justify-center text-sm ">
         {skills.map((desc, index) => (
           <div
             className="px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md"

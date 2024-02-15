@@ -73,10 +73,12 @@ export const AboutPage = () => {
           <h3 className=" font-bold text-xl ml-1">Education</h3>
         </div>
 
-        {/* Education */}
-        {education.map((el) => {
-          return <SingleEducation data={el} />;
-        })}
+        <div className="flex flex-col md:grid md:grid-cols-2 md:gap-5 ">
+          {/* Education */}
+          {education.map((el) => {
+            return <SingleEducation data={el} />;
+          })}
+        </div>
       </div>
     </div>
   );
