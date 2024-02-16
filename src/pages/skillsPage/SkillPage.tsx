@@ -102,7 +102,7 @@ export const SkillPage = () => {
           </div>
         </div>
 
-        <div>
+        <div className="lg:mb-16">
           <div className="pt-9">
             <h3 className=" font-bold text-xl ml-1">Other Tools</h3>
           </div>
