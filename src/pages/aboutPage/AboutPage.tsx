@@ -59,7 +59,7 @@ export const AboutPage = () => {
 
         <div className=" pt-8  ">
           <div className="flex justify-end">
-            <div className="shadow-2xl p-5 rounded-lg bg-[#383d40] shadow-black h-[300px] w-fit ">
+            <div className="shadow-2xl p-3 rounded-lg bg-[#383d40] shadow-black h-[300px] w-fit ">
               <img
                 className="rounded-lg shadow-2xl shadow-gray-700 h-full"
                 src="https://portfolio-bishal-samanta.vercel.app/assets/propic.183ff822.jpeg"
