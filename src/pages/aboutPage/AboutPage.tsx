@@ -2,15 +2,13 @@ import { education } from "@/configs/education";
 import { useNavigate } from "react-router-dom";
 import { SingleEducation } from "./SingleEducation";
 import { Typewriter } from "react-simple-typewriter";
+import aboutDetails from "@/configs/about";
 
 export const AboutPage = () => {
   const navigate = useNavigate();
 
   const handleResumeButtonClick = () => {
-    window.open(
-      "https://drive.google.com/file/d/1y1a1dvGDj232aLHK37w7reMwS4ncbHUM/view?usp=sharing",
-      "_blank"
-    );
+    window.open(aboutDetails.resumeLink, "_blank");
   };
 
   const handleMyWorkSectionClick = () => {
@@ -23,20 +21,13 @@ export const AboutPage = () => {
           {/* Intro section */}
           <div className="flex flex-col gap-3 md:mt-16 lg:gap-0">
             <p className=" text-center text-lg md:text-left md:text-[25px] lg:text-[30px]">
-              Namaste 🙏🏼 World!
+              {aboutDetails.intro}
             </p>
             <p className=" text-center md:mt-5 md:text-left md:text-[18px] lg:text-[22px]">
-              My name is <strong>Bishal Samanta</strong>{" "}
+              My name is <strong>{aboutDetails.name}</strong>{" "}
             </p>
             <div className="text-center text-[20px] font-bold md:text-left lg:text-[22px] min-h-[50px] text-[#8bbfed] ">
-              <Typewriter
-                words={[
-                  "A Full Stack Developer",
-                  "A Technical Trainer",
-                  "An Educator",
-                ]}
-                loop={100}
-              />
+              <Typewriter words={aboutDetails.designation} loop={100} />
             </div>
           </div>
 
@@ -62,8 +53,8 @@ export const AboutPage = () => {
             <div className="shadow-2xl p-3 rounded-lg bg-[#383d40] shadow-black h-[300px] w-fit ">
               <img
                 className="rounded-lg shadow-2xl shadow-gray-700 h-full"
-                src="https://portfolio-bishal-samanta.vercel.app/assets/propic.183ff822.jpeg"
-                alt=""
+                src={aboutDetails.profilePhoto}
+                alt="profile photo"
               />
             </div>
           </div>
@@ -75,11 +66,7 @@ export const AboutPage = () => {
           <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">About Me</h3>
         </div>
         <div className="rounded-lg shadow-2xl bg-[#3c4143] px-4 py-4 text-center shadow-black lg:px-7 lg:py-7 lg:text-[16px]">
-          A Passion-driven MERN stack developer and trainer with hands-on
-          experience in teaching complex technology and building scalable
-          products. Adaptable to learning new technology, and open to using
-          generative AI. Would like to bring his passion to any organization
-          that appreciates it and presents ample intellectual challenges.
+          {aboutDetails.aboutMeText}
         </div>
       </div>
 
