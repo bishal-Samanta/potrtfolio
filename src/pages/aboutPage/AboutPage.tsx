@@ -22,18 +22,18 @@ export const AboutPage = () => {
         <div className="flex flex-col justify-center gap-7 lg:pr-9 ">
           {/* Intro section */}
           <div className="flex flex-col gap-3 md:mt-16 lg:gap-0">
-            <p className=" text-center text-lg md:text-left md:text-[25px] lg:text-[20px]">
+            <p className=" text-center text-lg md:text-left md:text-[25px] lg:text-[30px]">
               Namaste 🙏🏼 World!
             </p>
-            <p className=" text-center md:mt-5 md:text-left md:text-[18px] lg:text-[20px]">
-              My name is <strong>Bishal</strong> and I am a{" "}
+            <p className=" text-center md:mt-5 md:text-left md:text-[18px] lg:text-[22px]">
+              My name is <strong>Bishal Samanta</strong>{" "}
             </p>
-            <div className="text-center text-[20px] font-bold md:text-left lg:text-[25px] min-h-[50px] text-[#8bbfed] ">
+            <div className="text-center text-[20px] font-bold md:text-left lg:text-[22px] min-h-[50px] text-[#8bbfed] ">
               <Typewriter
                 words={[
-                  "Full Stack Developer",
-                  "Technical Trainer",
-                  "Educator",
+                  "A Full Stack Developer",
+                  "A Technical Trainer",
+                  "An Educator",
                 ]}
                 loop={100}
               />
