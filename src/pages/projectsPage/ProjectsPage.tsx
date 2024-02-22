@@ -5,8 +5,6 @@ import "react-slideshow-image/dist/styles.css";
 import { GrFormPrevious } from "react-icons/gr";
 import { GrFormNext } from "react-icons/gr";
 
-
-
 export const ProjectsPage = () => {
   const properties = {
     prevArrow: (
@@ -18,12 +16,12 @@ export const ProjectsPage = () => {
   };
 
   return (
-    <div className="px-10 md:px-[12%] lg:px-[8%]">
+    <div className="px-10 md:px-[12%] lg:px-[17%]">
       <div className="pt-5 pb-3">
-        <h3 className=" font-bold text-xl ml-1">Projects</h3>
+        <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">Projects</h3>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 gap-x-7 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 gap-x-14 lg:grid-cols-2">
         {projects.map((project, index) => {
           return (
             <div key={index} className="">
@@ -110,7 +108,7 @@ export const ProjectsPage = () => {
 
                   {/* Part 2 */}
                   <div>
-                    <div className="flex justify-end gap-2 pt-1">
+                    <div className="flex justify-end gap-2 pt-3">
                       <ButtonWithIcon
                         icon="FaGithub"
                         name="Github"
