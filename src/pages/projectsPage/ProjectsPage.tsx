@@ -57,10 +57,12 @@ export const ProjectsPage = () => {
                 </Fade>
               </div>
 
-              <div className="w-[100%]">
-                <h3 className="font-bold text-left mt-1">{project.title}</h3>
-                <p className="text-left">{project.sub_title}</p>
-                <p className="text-left">{project.content}</p>
+              <div className="w-[100%] mb-3">
+                <h3 className="font-medium text-left mt-1.5 text-lg text-[#97baff]">
+                  {project.title}
+                </h3>
+                <p className="text-left text-sm">{project.sub_title}</p>
+                <p className="text-left text-sm ">{project.content}</p>
               </div>
 
               <div>
@@ -76,16 +78,32 @@ export const ProjectsPage = () => {
                 })}
               </div>
 
-              <div className="flex justify-between gap-4 pt-4">
+              <div className="pt-3">
+                <h3 className="font-bold text-left mt-1">Tech Stacks : </h3>
+                <div className="pt-2 flex flex-wrap gap-2 justify-start text-[12px] ">
+                  {project.techStack.map((techStack, index) => {
+                    return (
+                      <div
+                        className="px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md"
+                        key={index}
+                      >
+                        {techStack}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="flex justify-end gap-2 pt-4">
                 <ButtonWithIcon
                   icon="FaGithub"
                   name="Github"
-                  className=" shadow-2xl"
+                  className=" shadow-2xl bg-[#2e3234] px-3 font-semibold text-[12px] hover:bg-[#97baff] hover:text-[#2e3234]"
                 />
                 <ButtonWithIcon
                   icon="FaPlay"
                   name="Deployed"
-                  className=" shadow-2xl"
+                  className=" shadow-2xl bg-[#2e3234] px-3 font-semibold text-[12px]"
                 />
                 {/* <button className="bg-[#2e3234] px-3 py-2 rounded-lg shadow-2xl shadow-black">Blog</button> */}
               </div>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <div className=" flex justify-around py-2 items-center fixed w-full bg-[#2e3234] ">
+    <div className=" flex justify-around py-2 items-center fixed w-full bg-[#2e3234] z-20 ">
       <div>
         <h3 className=" text-xl font-semibold lg:text-[23px]">
           <Link to="/">Bishal Samanta</Link>
