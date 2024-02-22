@@ -117,7 +117,7 @@ export const ProjectsPage = () => {
                       <ButtonWithIcon
                         icon="FaPlay"
                         name="Deployed"
-                        className=" shadow-2xl bg-[#2e3234] px-3 font-semibold text-[12px] lg:text-[10px]"
+                        className=" shadow-2xl bg-[#2e3234] px-3 font-semibold text-[12px] lg:text-[10px] hover:bg-[#97baff] hover:text-[#2e3234]"
                         iconStyle=" text-[10px]"
                       />
                       {/* <button className="bg-[#2e3234] px-3 py-2 rounded-lg shadow-2xl shadow-black">Blog</button> */}
