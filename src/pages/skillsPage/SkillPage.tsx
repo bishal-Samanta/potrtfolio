@@ -7,7 +7,7 @@ import { FrontendSkills } from "./FrontendSkills";
 export const SkillPage = () => {
   return (
     <div className="px-10 md:px-[17%]">
-      <div className="pt-7">
+      <div className="pt-5">
         {/* Exp */}
         <div>
           <div className="pb-3">

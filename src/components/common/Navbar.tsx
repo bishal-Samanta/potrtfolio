@@ -20,9 +20,9 @@ export const Navbar = () => {
           <li className=" cursor-pointer">
             <Link to="/projects">Projects</Link>
           </li>
-          <li className=" cursor-pointer">
+          {/* <li className=" cursor-pointer">
             <Link to="/blogs">Blogs</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
