@@ -11,7 +11,9 @@ export const SkillPage = () => {
         {/* Exp */}
         <div>
           <div className="pb-3">
-            <h3 className=" font-bold text-xl ml-1">Experience</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Experience
+            </h3>
           </div>
 
           <div className="flex flex-col gap-7 md:grid md:grid-cols-2">
@@ -24,7 +26,9 @@ export const SkillPage = () => {
         {/* Skills */}
         <div>
           <div className="pt-9">
-            <h3 className=" font-bold text-xl ml-1">Programming Languages</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Programming Languages
+            </h3>
           </div>
 
           <div className="grid grid-cols-4 gap-4 pt-3 md:flex md:flex-row md:flex-wrap">
@@ -44,7 +48,9 @@ export const SkillPage = () => {
 
         <div>
           <div className="pt-9">
-            <h3 className=" font-bold text-xl ml-1">Frontend Skills</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Frontend Skills
+            </h3>
           </div>
 
           <div className="grid grid-cols-4 gap-4 pt-3 md:flex md:flex-row md:flex-wrap">
@@ -64,7 +70,9 @@ export const SkillPage = () => {
 
         <div>
           <div className="pt-9">
-            <h3 className=" font-bold text-xl ml-1">Backend Skills</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Backend Skills
+            </h3>
           </div>
 
           <div className="grid grid-cols-4 gap-4 pt-3 md:flex md:flex-row md:flex-wrap">
@@ -84,7 +92,9 @@ export const SkillPage = () => {
 
         <div>
           <div className="pt-9">
-            <h3 className=" font-bold text-xl ml-1">Database Skills</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Database Skills
+            </h3>
           </div>
 
           <div className="grid grid-cols-4 gap-4 pt-3 md:flex md:flex-row md:flex-wrap">
@@ -104,7 +114,9 @@ export const SkillPage = () => {
 
         <div className="lg:mb-16">
           <div className="pt-9">
-            <h3 className=" font-bold text-xl ml-1">Other Tools</h3>
+            <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">
+              Other Tools
+            </h3>
           </div>
 
           <div className="grid grid-cols-4 gap-4 pt-3 md:flex md:flex-row md:flex-wrap">
