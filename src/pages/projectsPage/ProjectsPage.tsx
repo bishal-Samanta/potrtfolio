@@ -31,7 +31,7 @@ export const ProjectsPage = () => {
   return (
     <div className="px-10">
       <div className="pt-5 pb-3">
-        <h3 className=" font-bold text-xl ml-1">Experience</h3>
+        <h3 className=" font-bold text-xl ml-1">Projects</h3>
       </div>
 
       {projects.map((project, index) => {
@@ -58,9 +58,16 @@ export const ProjectsPage = () => {
               </div>
 
               <div className="w-[100%] mb-3">
-                <h3 className="font-medium text-left mt-1.5 text-lg text-[#97baff]">
-                  {project.title}
-                </h3>
+                <div className="flex justify-between items-center">
+                  <h3 className="font-medium text-left mt-1.5 text-lg text-[#97baff]">
+                    {project.title}
+                  </h3>
+
+                  <div className=" text-[10px] px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md mt-2">
+                    {project.tags}
+                  </div>
+                </div>
+
                 <p className="text-left text-sm">{project.sub_title}</p>
                 <p className="text-left text-sm ">{project.content}</p>
               </div>
@@ -104,6 +111,7 @@ export const ProjectsPage = () => {
                   icon="FaPlay"
                   name="Deployed"
                   className=" shadow-2xl bg-[#2e3234] px-3 font-semibold text-[12px]"
+                  iconStyle=" text-[10px]"
                 />
                 {/* <button className="bg-[#2e3234] px-3 py-2 rounded-lg shadow-2xl shadow-black">Blog</button> */}
               </div>
