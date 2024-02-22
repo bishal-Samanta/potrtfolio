@@ -19,7 +19,7 @@ export const SingleEducation: React.FC<SingleEducationProps> = ({
       <div className="pt-5 flex flex-wrap gap-2 justify-center text-[12px] ">
         {skills.map((desc, index) => (
           <div
-            className="px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md"
+            className="px-2.5 pb-[4px] py-0.5 bg-[#323539] shadow-2xl rounded-md hover:bg-[#8bbfed] hover:text-[#323539]"
             key={index}
           >
             {desc}

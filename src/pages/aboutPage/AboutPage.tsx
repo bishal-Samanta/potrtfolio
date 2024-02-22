@@ -44,13 +44,13 @@ export const AboutPage = () => {
           <div className="flex justify-center md:justify-start gap-4 md:mt-4 md:mb-14 ">
             <button
               onClick={handleResumeButtonClick}
-              className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px] hover:bg-[#8bbfed] hover:text-black"
+              className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[12px] hover:bg-[#8bbfed] hover:text-black"
             >
               Resume
             </button>
             <button
               onClick={handleMyWorkSectionClick}
-              className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px] hover:bg-[#8bbfed] hover:text-black"
+              className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[12px] hover:bg-[#8bbfed] hover:text-black"
             >
               Projects
             </button>
