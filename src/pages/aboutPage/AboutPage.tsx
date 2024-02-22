@@ -44,13 +44,13 @@ export const AboutPage = () => {
           <div className="flex justify-center md:justify-start gap-4 md:mt-4 md:mb-14 ">
             <button
               onClick={handleResumeButtonClick}
-              className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px]"
+              className=" bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px] hover:bg-[#8bbfed] hover:text-black"
             >
               Resume
             </button>
             <button
               onClick={handleMyWorkSectionClick}
-              className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px]"
+              className="bg-[#3c4143] px-3 py-2 rounded-lg shadow-2xl shadow-black lg:text-[14px] hover:bg-[#8bbfed] hover:text-black"
             >
               Projects
             </button>
@@ -72,7 +72,7 @@ export const AboutPage = () => {
 
       <div className="pt-14 md:px-[100px] lg:px-[15%]">
         <div className="pb-3">
-          <h3 className=" font-bold text-xl ml-1">About Me</h3>
+          <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">About Me</h3>
         </div>
         <div className="rounded-lg shadow-2xl bg-[#3c4143] px-4 py-4 text-center shadow-black lg:px-7 lg:py-7 lg:text-[16px]">
           A Passion-driven MERN stack developer and trainer with hands-on
@@ -85,7 +85,7 @@ export const AboutPage = () => {
 
       <div className=" pt-14 md:px-[100px] lg:px-[15%]">
         <div className="pb-3">
-          <h3 className=" font-bold text-xl ml-1">Education</h3>
+          <h3 className=" font-bold text-xl ml-1 text-[#8bbfed]">Education</h3>
         </div>
 
         <div className="flex flex-col md:grid md:grid-cols-2 md:gap-5 ">
