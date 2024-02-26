@@ -19,7 +19,3 @@ const aboutDetails = {
 
 export default aboutDetails;
 
-//sdfwf
-//dwdwd
-//dwdwd
-//dwdwd
