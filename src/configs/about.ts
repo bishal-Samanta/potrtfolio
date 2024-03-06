@@ -18,7 +18,3 @@ const aboutDetails = {
 }
 
 export default aboutDetails;
-
-//fgfg
-//jfhftf
-//ffgf
