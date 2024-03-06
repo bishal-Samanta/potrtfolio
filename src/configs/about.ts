@@ -4,7 +4,7 @@ const aboutDetails = {
     designation : [
         "A Full Stack Developer",
         "A Technical Trainer",
-        "An Educator"
+        "An Educator",
     ],
     resumeLink : "https://drive.google.com/file/d/1y1a1dvGDj232aLHK37w7reMwS4ncbHUM/view?usp=sharing",
     profilePhoto : "https://portfolio-bishal-samanta.vercel.app/assets/propic.183ff822.jpeg",
