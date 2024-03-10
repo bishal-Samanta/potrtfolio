@@ -22,3 +22,4 @@ export default aboutDetails;
 //ggyw
 //ghhs
 //gdwgd
+//gywgd
