@@ -19,7 +19,3 @@ const aboutDetails = {
 
 export default aboutDetails;
 
-//ggyw
-//ghhs
-//gdwgd
-//gywgd
